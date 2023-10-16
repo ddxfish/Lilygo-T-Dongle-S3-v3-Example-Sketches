@@ -1,0 +1,32 @@
+#Lilygo T-Dongle esp32-s3 v3
+#esp32-s3 development board
+#Single USB-A connection with both charge and 2 data lines
+#The only button is connected to 00 boot
+
+#Boot button, physical button
+boot_button 00	
+
+#sd card pins
+sd_d0	14
+sd_d1	17
+sd_d2	21
+sd_d3	18
+sd_clk	12
+sd_cmd	16
+
+#usb data pins, connected to host
+usb_dn 19
+usb_dp 20
+
+#apa102 RGB led
+led_di 40
+led_ci 39
+
+#TFT Pins for st7735 160x80 pixel screen
+tft_cs	4
+tft_sda	3
+tft_scl	5
+tft_dc	2
+tft_res	1
+tft_backlight	38
+
